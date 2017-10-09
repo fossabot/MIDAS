@@ -209,6 +209,8 @@ See the following example `select` calls for reference:
 ORM = TyORM("midas_hids.db")
 
 # this will return all table data
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2FMIDAS.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2FMIDAS?ref=badge_shield)
+
 ORM.select("test_table")
 
 # this will return only the "data_field_name" column of the
@@ -345,3 +347,7 @@ Contributors
 + __Ben Hughes__ ([@benjammingh](https://twitter.com/benjammingh))
 + __Zane Lackey__ ([@zanelackey](https://twitter.com/zanelackey))
 + __mimeframe__ ([@mimeframe](https://twitter.com/mimeframe))
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2FMIDAS.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2FMIDAS?ref=badge_large)
